@@ -1,4 +1,4 @@
-In this project, let's build an **App Store** by applying the concepts we have learned till now.
+In this project, I've built an **App Store** by implementing react component and component private property state.
 
 ### Design Files
 
@@ -12,27 +12,27 @@ In this project, let's build an **App Store** by applying the concepts we have l
 
 
 <details>
-<summary>Functionality to be added</summary>
+<summary>Functionalities added</summary>
 <br/>
 
-The app must have the following functionalities
+The app has the following functionalities
 
-- Initially, the **Social** tab should be active and the apps with **Social** as their category should be displayed
+- Initially, the **Social** tab will be active and the apps with **Social** as their category will be displayed
 - When a value is provided in the search input
-  - The apps in the active category, that include search input value in their name should be displayed
-  - When another tab is clicked, the apps in the corresponding category, that include search input value in their name should be displayed
-  - The search should be case insensitive
+  - The apps in the active category, that include search input value in their name will be displayed
+  - When another tab is clicked, the apps in the corresponding category, that include search input value in their name will be displayed
+  - The search is insensitive
 - When the search input is empty,
-  - All the apps in the active category should be displayed
-  - When another tab is clicked, the apps in the corresponding category should be displayed
-- The `AppStore` component is provided with `tabsList`. It consists of a list of tabItem objects with the following properties in each tabItem object
+  - All the apps in the active category will be displayed
+  - When another tab is clicked, the apps in the corresponding category will be displayed
+- The `AppStore` component contains  a  `tabsList`. It consists of a list of tabItem objects with the following properties in each tabItem object
 
   |     Key     | Data Type |
   | :---------: | :-------: |
   |    tabId    |  String   |
   | displayText |  String   |
 
-- The `AppStore` component is provided with `appsList`. It consists of a list of app objects with the following properties in each app object
+- The `AppStore` component contains a `appsList`. It consists of a list of app objects with the following properties in each app object
 
   |   Key    | Data Type |
   | :------: | :-------: |
@@ -60,7 +60,7 @@ The app must have the following functionalities
 <details>
 <summary>Image URLs</summary>
 
-- [https://assets.ccbp.in/frontend/react-js/app-store/app-store-search-img.png](https://assets.ccbp.in/frontend/react-js/app-store/app-store-search-img.png) alt should be **search icon**
+- [https://assets.ccbp.in/frontend/react-js/app-store/app-store-search-img.png](https://assets.ccbp.in/frontend/react-js/app-store/app-store-search-img.png)
 
 </details>
 
